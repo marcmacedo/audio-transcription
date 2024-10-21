@@ -1,2 +1,4 @@
 ./audios/*
 ./converted/*
+.DS_Store
+venv
