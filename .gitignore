@@ -1,4 +1,4 @@
-./audios/*
-./converted/*
+audios/*
+converted/*
 .DS_Store
-venv
+venv/
