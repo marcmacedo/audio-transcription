@@ -10,7 +10,6 @@ def converter_audio_from_whatsapp(file_path, output_ext="wav"):
     ext = os.path.splitext(file_path)[1].lower()
     file_name = os.path.split(file_path)[1]
 
-
     if ext not in [".m4a", ".ogg", ".opus"]:
         raise ValueError(f"Formato de arquivo {ext} não suportado pela aplicação.")
 
